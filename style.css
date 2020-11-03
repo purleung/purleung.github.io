@@ -1,0 +1,182 @@
+body {
+    font-family: 'Gochi Hand', cursive;
+    background-image: url("images/BG_coffee.jpg");
+    position: fixed;
+    margin: 0 auto;
+    z-index: 1;
+    
+  }
+  
+  header {
+    padding: 20px 0;
+    position: fixed;
+    z-index: 2;
+    color: white;
+  }
+  
+  header .row,
+  footer .row {
+    display: flex;
+    align-items: center;
+  }
+
+  table {
+      position: relative;
+      top: 400px;
+  }
+
+  table.rosyBrownTable {
+    border: 4px solid #3EBAB8;
+    background-color: #555555;
+    width: 400px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table.rosyBrownTable td, table.rosyBrownTable th {
+    border: 1px solid #555555;
+    padding: 4px 4px;
+  }
+  table.rosyBrownTable tbody td {
+    font-size: 19px;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+  table.rosyBrownTable tr:nth-child(even) {
+    background: #732BBA;
+  }
+  table.rosyBrownTable td:nth-child(even) {
+    background: #928CBA;
+  }
+  table.rosyBrownTable tfoot {
+    font-size: 13px;
+    font-weight: bold;
+    background: #B7B8ED;
+    border-top: 1px solid #444444;
+  }
+  table.rosyBrownTable tfoot td {
+    font-size: 13px;
+  }
+  table.rosyBrownTable tfoot .links {
+    text-align: right;
+  }
+  table.rosyBrownTable tfoot .links a{
+    display: inline-block;
+    background: #FFFFFF;
+    color: #BA8697;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  a {
+    padding: 0 20px;
+    margin: 0;
+    color: whitesmoke;
+  }
+
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+
+  #audio {
+      position: relative;
+      top: 200px;
+  }
+  
+  .jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1567752588693-ad10a647c5a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2500&q=80');
+    background-size: cover;
+    color: #ffffff;
+    height: 400px;
+  }
+  
+  .jumbotron h2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+    color: #fff;
+  }
+  
+  .jumbotron h3 {
+    margin: 0 0 20px;
+    color: #fff;
+  }
+  
+  section .row img {
+    margin: 0 0 30px;
+    width: 100%;
+  }
+  
+  .col-md-6 {
+    margin: 0 0 30px;
+  }
+  
+  .btn.btn-primary {
+    border-radius: 2px;
+    border: 0px;
+    color: #fbd1d5;
+    background-color: #ffffff;
+  }
+  
+  .btn.btn-primary:hover {
+    color: #ffffff;
+    background-color: #fbd1d5;
+  }
+  
+  .btn-secondary {
+    background-color: wheat;
+    color: #ffffff;
+    margin: 0 0 30px;
+  }
+  
+  .portrait {
+    width:  350px;
+    height: 300px;
+  }
+  
+  figure img {
+    width: 100%;
+    height: auto;
+  }
+  
+  figure {
+    margin-bottom: 30px;
+  }
+  
+  footer {
+    font-size: 12px;
+    padding: 20px 0;
+    bottom: 0;
+  }
+  
+  footer .col-sm-8 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer ul {
+    list-style: none;
+  }
+  
+  h6 {
+    font-size:10px;
+  }
+  
+  
+  

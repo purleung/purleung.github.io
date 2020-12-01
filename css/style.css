@@ -1,0 +1,65 @@
+/* Font family 
+font-family: 'IM Fell DW Pica', serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Schoolbell', cursive;
+font-family: 'Tangerine', cursive;
+*/
+
+body {
+    font-family: 'Schoolbell', cursive;
+    margin: 0px;
+    text-align: center;
+    
+}
+
+h1, p {
+    margin: 5px;
+    color: #64638F;
+    
+}
+
+p {
+    font-family: 'Schoolbell', cursive;
+}
+
+h1 {
+    font-family: 'IM Fell DW Pica', serif;
+}
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.top-container img {
+      width: 200px;
+    }
+
+.middle-container img{
+    width: 200px;
+}
+
+.middle-container img:hover {
+    transition: 0.05s;
+    transform: rotate(25deg);
+}
+
+.top-container {
+   /*position: absolute;*/
+   margin: 0 auto;
+   background-color: #ABA9E9;
+}
+
+.top2-container {
+   
+    top: 100px; 
+}
+
+.img-container img {
+  width: 50px;
+  padding: 20px;
+}
+
+.bottom-container {
+
+}
+
